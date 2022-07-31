@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+$bgColor: #333333;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body{
+    font-family: 'Wallpoet', cursive;
+    display:flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: lime !important;
+    background-color: $bgColor;
+
+}

@@ -1,0 +1,44 @@
+//@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
+$safeBgColor:#253f53;
+
+.safe-container{
+    font-family: inherit;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:$safeBgColor;
+    width:700px;
+
+}
+.digits-box{
+    background-color: black;
+    width: 600px;
+    height: 150px;
+    margin: 30px 30px 10px;
+    display: flex;
+    justify-content: center;
+    .digit-code{
+        font-size: 11rem;
+        margin: -17px 4px;
+    }
+}
+.digits-keys{
+    width: 600px;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2px;
+    margin-bottom: 20px;
+
+    button{
+        font-family: inherit;
+        color: inherit;
+        padding: 5px 61px;
+        background-color: #253f53;
+        border: 3px solid white;
+        margin: 5px;
+        font-size: 4.5rem;
+        align-items: center;
+    }
+}
